@@ -1,0 +1,30 @@
+.bordered {
+  border: red 2px solid;
+}
+
+.row + .row {
+  margin-top: 10px;
+}
+
+#main {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-family: serif;
+  font-size: 30px;
+}
+
+input {
+  font-size: 26px;
+}
+
+#ddl, #time-left {
+  font-family: sans-serif;
+}
+
+.blink {
+  animation: blinkAnime 1s infinite alternate;
+}
+@keyframes blinkAnime{
+   0% { color: #ffffff }
+ 100% { color: #ff0000 }
+}
